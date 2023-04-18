@@ -8,7 +8,7 @@ export const Product = ({ product }) => {
 
       <button
         type="button"
-        disabled={product.inventory === 0}
+        // disabled={product.inventory === 0}
         onClick={() => { }}>
         Add to cart
       </button>
